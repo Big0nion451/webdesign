@@ -1,0 +1,105 @@
+
+/* navagation bar top*/
+.navlist li{
+    float: left;
+    
+    }
+    
+    .navlist li a {
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        text-align: center;
+        color:white;
+    }
+    .navlist{
+        background-color:rgba(17, 76, 153, 0.473);
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        overflow: hidden;
+        font-family: 'Playfair Display', serif;
+        list-style-type: none;
+    }
+    
+    .navlist  li a:hover{
+      background-color:  rgba(87, 63, 35, 0.589)
+    }
+    
+    li a :hover:not(.active),.active{
+        background-color: rgba(87,63, 35,0.589);
+    
+    }
+    
+    
+    
+        
+    /* navagation bar bottom */
+    .navlistBottom li{
+        float: left;
+    }
+        .navlistBottom li a {
+            display: inline-block;
+            padding: 16px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
+        .navlistBottom{
+            background-color:rgba(17, 76, 153, 0.473);
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            list-style-type: none;
+        }
+        
+        .navlistBottom  li a:hover{
+            background-color:  rgba(87, 63, 35, 0.589)
+    }
+    .navlistBottom  li a:hover{
+        background-color: rgba(87,63, 35,0.589);
+    }
+    
+    /* text styles */
+    
+    .header{
+    text-align: center;
+    }
+  .AboutUsBackground{
+   
+      text-align: center;
+      padding: 15px;
+ 
+  }
+
+
+  /* form */
+input, textarea{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+.center{
+    margin: auto;
+    padding: 10px;
+}
+.FormFont{
+    font-family: 'Playfair Display', serif;
+}
+
+.map{
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.bodyText{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
